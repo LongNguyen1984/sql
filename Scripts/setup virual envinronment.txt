@@ -1,0 +1,16 @@
+ref: https://realpython.com/python-virtual-environments-a-primer/
+
+1. Create It:
+
+PS> python -m venv <name_virtual_environment>
+
+Reference to setup for powershell (PS) or CMD:
+https://docs.python.org/3/library/venv.html
+
+On Microsoft Windows, it may be required to enable the Activate.ps1 script by setting the execution policy for the user. You can do this by issuing the following PowerShell command:
+PS> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUse
+
+2. Activate It:
+Activate the Activate.ps1 file as flowwing:
+PS> <name_virtual_environment>\Scripts\Activate.ps1
+(sql) PS> 
