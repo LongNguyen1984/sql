@@ -14,3 +14,7 @@ PS> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUse
 Activate the Activate.ps1 file as flowwing:
 PS> <name_virtual_environment>\Scripts\Activate.ps1
 (sql) PS> 
+
+3. Deactivate It:
+PS> deactivate
+
